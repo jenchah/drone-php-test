@@ -1,5 +1,6 @@
-build:
-  image: php
-  commands:
-    - ls
-    - php -l test.php
+pipeline:
+  build:
+    image: php
+    commands:
+      - ls
+      - php -l test.php
